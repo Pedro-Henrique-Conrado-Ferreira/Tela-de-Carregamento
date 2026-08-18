@@ -1,14 +1,34 @@
-# Tela-De-Carregamento
-import { Image, Text, View } from 'react-native';
+import { Image, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
     <View style={{ flex: 1 }}>
-      <View style={{ alignItems: 'center' }}>
+      <View style={{ alignItems: 'center', }}>
         <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Boca de Planta</Text>
       </View>
       <View style={{ alignItems: 'center' }}>
         <Text style={{ fontSize: 18 }}> Onde a natureza mostra os dentes </Text>
+      </View>
+      <View style={{ alignItems:'center'}}>
+        <Image
+          source={{
+            uri: 'https://images.cults3d.com/mi9JqIttvFbBVOxo7kR-XBHhTco=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/19239036/illustration-file/c0d88431-e735-4437-8bd4-0900385cb14c/Captura-de-pantalla-2025-10-01-195618.png',
+          }}
+          style={{ width: 120, height: 150,margin:40,padding:10 }}
+        />
+      </View>
+      <View>
+        <Text> Insira o e-mail abaixo: </Text>
+        <TextInput
+          placeholder="seu e-mail"
+          style={{
+            borderWidth: 1,
+            borderRadius: 3,
+            margin: 20,
+            padding: 5,
+            backgroundColor: '#237957',
+          }}
+        />
       </View>
     </View>
   );
