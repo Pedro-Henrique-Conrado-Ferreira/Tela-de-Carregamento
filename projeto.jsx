@@ -1,4 +1,12 @@
-import {Image,Text,View,ScrollView,StatusBar,TextInput,Button,} from 'react-native';
+import {
+  Image,
+  Text,
+  View,
+  ScrollView,
+  StatusBar,
+  TextInput,
+  Button,
+} from 'react-native';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 export default function App() {
   return (
