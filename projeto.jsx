@@ -1,12 +1,4 @@
-import {
-  Image,
-  Text,
-  View,
-  ScrollView,
-  StatusBar,
-  TextInput,
-  Button,
-} from 'react-native';
+import { Image, Text, View, ScrollView, StatusBar, TextInput, Button} from 'react-native';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 export default function App() {
   return (
@@ -73,7 +65,6 @@ export default function App() {
             </Text>
             <TextInput
               placeholder="Escreva sua dúvida"
-              placeholderTextColor="#A0A0A0"
               style={{
                 backgroundColor: '#1E2B25',
                 color: 'white',
